@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+
+<p>Text that is centered on a photo:</p>
+
+<div class="container">
+  <img src="uw.jpg" alt="University of Washington" style="width:50%;">
+  
+  <div class="centered">University of Washington</div>
+</div>
+
+<p>A photo with 20 pixel margins on each side:</p>
+    <img src="US_Seattle,-WA.jpeg" alt="Space Neddle" style="width:50%; height: auto; padding: 20px">
+
+<p>Text with a border that uses dotted lines:</p>
+<style>
+    p.dotted {border-style: dotted;}
+</style>
+<p class="dotted" style="color:thistle; font-family: Arial, Helvetica, sans-serif; font-size: large;">Go Huskies!</p>
+</body>
+</html> 
