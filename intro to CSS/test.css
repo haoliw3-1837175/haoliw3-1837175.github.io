@@ -2,29 +2,34 @@ body{
     background-image: url(dark_wood.png);
 
 }
+
 p{
     color: white;
     font-weight: bold;
     font-family: "Arial";
 
 }
+
 a{
     color: white;
     font-weight: bold;
     font-family: "Arial";
+    font-size: 24px;
 }
+
 h3{
     color:#FFBC00;
     font-size: 40px;
     font-family: "Passion one";
     margin-bottom: 0px;
 
-
 }
+
 div{
     background-color:#8E41D5;
 
 }
+
 #Header{
     border: solid 8px black;
     width: 500px;
@@ -32,7 +37,6 @@ div{
     margin-right: auto;
     margin-bottom: 10px;
     text-align: center;
-
 }
 
 ul{
@@ -46,6 +50,7 @@ ul{
     font-weight: bold;
 
 }
+
 #LeftNav{
     border: solid 8px black;
     width: 400px;
@@ -55,37 +60,50 @@ ul{
     float: left;
     text-align: center;
     padding:  15px;
-
-
 }
+
 #LeftNav img{
 
 }
+
 #LeftNav ul{
 
 }
+
 #LeftNav h3{
 
 }
+
 #Content{
     border: solid 8px black;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-
-
 }
+
 #Footer{
     border: solid 8px black;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
     text-align: center;
-
-
 }
 
+
+
+#1st tag
+.dropdown-content {
+    right: 0;
+  }
+
+#2nd tag
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+
+#3rd tag
 ul.a {
   list-style-type: circle;
 }
@@ -101,3 +119,17 @@ ol.c {
 ol.d {
   list-style-type: lower-alpha;
 }
+
+#4th tag
+p.ex1 {outline: dashed;}
+p.ex2 {outline: dotted red;}
+p.ex3 {outline: 5px solid yellow;}
+p.ex4 {outline: thick ridge pink;}
+
+#5th tag
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
