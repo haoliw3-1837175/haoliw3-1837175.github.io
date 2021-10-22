@@ -232,13 +232,41 @@
 
 	<p>&nbsp;</p>
 
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 20px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #2603a39f; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: rgb(192, 140, 140); 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: rgb(192, 140, 140); 
+        }
+        </style>
+        </head>   
+        
+    
+
+
     First name: <input type="text" name="firstname"><br> 
     Last name: <input type="text" name="lastname"><br>
     User name: <input type="username" name="lastname"><br>
     Password: <input type="password" name="pwd"><br>
     Text Area: <textarea name="essay">Blah blah blah...</textarea> <br>  
     Radio Buttons: <input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No<br>
-    Checkbox: <input type="checkbox" name="vehicle" value="Bike">I have a bike<br> <input type="checkbox" name="vehicle" value="Car">I have a car
+    Checkbox: <input type="checkbox" name="vehicle" value="Bike">I have a bike<br> <input type="checkbox" name="vehicle" value="Car">I have a car<br>
     Drop-down List:
     <select name="cars"> 
     <option value="volvo">Volvo</option> 
